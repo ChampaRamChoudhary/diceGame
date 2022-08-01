@@ -7,11 +7,11 @@ function diceRoll(){
     var number2 = Math.ceil(randomNumber2);
 
     var image1 = "dice"+number1+".png";
-    image1="./photos/"+ image1;
+    image1="./"+ image1;
     document.querySelectorAll("img")[0].setAttribute("src", image1);
 
     var image2 = "dice"+number2+".png";
-    image2="./photos/"+image2;
+    image2="./"+image2;
     document.querySelectorAll("img")[1].setAttribute("src", image2);
 
 
