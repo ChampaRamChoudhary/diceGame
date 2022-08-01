@@ -1,0 +1,21 @@
+.box{
+    height: 93vh;
+    justify-content: space-between;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.footer{
+    line-height: 3rem;
+}
+
+h1,h2, h3, h4 {
+    text-align: center;
+}
+h3, .footer{
+    color: blue;
+}
+
+.dice img{
+    color: rgb(214, 22, 22);
+}
