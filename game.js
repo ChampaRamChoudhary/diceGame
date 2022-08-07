@@ -27,7 +27,7 @@ function diceRoll() {
     if (number1 > number2) {
         document.querySelector("h2").innerHTML = "&#9996 Player '1' Win";
         document.querySelector(".number1 h3").innerHTML = "Player 1 &#128513";
-        document.querySelector(".number2 h3").innerHTML = "Player 1 &#128524";
+        document.querySelector(".number2 h3").innerHTML = "Player 2 &#128524";
     }
     else if (number1 < number2) {
         document.querySelector("h2").innerHTML = "&#128075 Player '2' Win";
